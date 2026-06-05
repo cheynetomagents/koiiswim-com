@@ -1,0 +1,31 @@
+# Environment variables — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Shopify CLI cache / generated files
+.shopify/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.next/
+.nuxt/
+.output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
